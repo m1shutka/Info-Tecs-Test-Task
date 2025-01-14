@@ -26,15 +26,15 @@
 3. Реализованна параллельная работа потоков.
 
 Примеры запуска программы:
-1.Тестирование ya.ru и google.com с пятью запросами:
+1. Тестирование ya.ru и google.com с пятью запросами:
 ```
 python request.py -H https://ya.ru,https://google.com -C 5
 ```
-2.Тестирование ya.ru и google.com с пятью запросами с выводом во мнешний файл:
+2. Тестирование ya.ru и google.com с пятью запросами с выводом во мнешний файл:
 ```
   python request.py -H https://ya.ru,https://www.google.com/ -O output_file.txt -C 5
 ```
-3.Тестирование адресов из файла с пятью запросами:
+3. Тестирование адресов из файла с пятью запросами:
 ```
   python request.py -F input_file.txt -C 5
 ```
