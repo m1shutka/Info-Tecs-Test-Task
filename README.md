@@ -47,7 +47,7 @@ Min: 677.027
 Max: 697.213
 Avg: 686.349
 ```
-2. Тестирование ya.ru и google.com с пятью запросами с выводом во мнешний файл:
+2. Тестирование ya.ru и google.com с пятью запросами с выводом во внешний файл:
 ```
   python request.py -H https://ya.ru,https://www.google.com/ -O output_file.txt -C 5
 ```
