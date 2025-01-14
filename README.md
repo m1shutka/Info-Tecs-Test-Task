@@ -30,6 +30,23 @@
 ```
 python request.py -H https://ya.ru,https://google.com -C 5
 ```
+Результат:
+```
+        Host: https://ya.ru
+Success: 5
+Failed: 0
+Errors: 0
+Min: 269.868
+Max: 412.549
+Avg: 322.726
+        Host: https://google.com
+Success: 5
+Failed: 0
+Errors: 0
+Min: 677.027
+Max: 697.213
+Avg: 686.349
+```
 2. Тестирование ya.ru и google.com с пятью запросами с выводом во мнешний файл:
 ```
   python request.py -H https://ya.ru,https://www.google.com/ -O output_file.txt -C 5
